@@ -1,0 +1,64 @@
+{
+    "supermercados": [
+      {
+        "nombre": "Mercadona",
+        "direccion": "Calle Ochoa 3",
+        "geolocalizacion": {
+          "latitud": 40.12345,
+          "longitud": -3.67890
+        },
+        "productos": [
+          {
+            "nombre": "Leche",
+            "oferta": true,
+            "periodo_vigencia": {
+              "inicio": "2023-06-01",
+              "fin": "2023-06-30"
+            },
+            "unidad_medida": "litros",
+            "precio": 1.50,
+            "adquirido": false
+          },
+          {
+            "nombre": "Pan",
+            "oferta": false,
+            "unidad_medida": "unidades",
+            "precio": 0.80,
+            "adquirido": true
+          }
+        ]
+      },
+      {
+        "nombre": "Hiperdino",
+        "direccion": "Avenida Pio 456",
+        "geolocalizacion": {
+          "latitud": 40.54321,
+          "longitud": -3.09876
+        },
+        "productos": [
+          {
+            "nombre": "Huevos",
+            "oferta": true,
+            "periodo_vigencia": {
+              "inicio": "2023-06-01",
+              "fin": "2023-06-30"
+            },
+            "unidad_medida": "docenas",
+            "precio": 2.50,
+            "adquirido": false
+          },
+          {
+            "nombre": "Yogur",
+            "oferta": true,
+            "periodo_vigencia": {
+              "inicio": "2023-06-01",
+              "fin": "2023-06-30"
+            },
+            "unidad_medida": "unidades",
+            "precio": 0.75,
+            "adquirido": true
+          }
+        ]
+      }
+    ]
+  }

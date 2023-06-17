@@ -1,0 +1,64 @@
+<lista_compra>
+  <supermercados>
+    <supermercado>
+      <nombre>Supermercado A</nombre>
+      <direccion>Calle Principal 123</direccion>
+      <geolocalizacion>
+        <latitud>40.12345</latitud>
+        <longitud>-3.67890</longitud>
+      </geolocalizacion>
+      <productos>
+        <producto>
+          <nombre>Leche</nombre>
+          <oferta>true</oferta>
+          <periodo_vigencia>
+            <inicio>2023-06-01</inicio>
+            <fin>2023-06-30</fin>
+          </periodo_vigencia>
+          <unidad_medida>litros</unidad_medida>
+          <precio>1.50</precio>
+          <adquirido>false</adquirido>
+        </producto>
+        <producto>
+          <nombre>Pan</nombre>
+          <oferta>false</oferta>
+          <unidad_medida>unidades</unidad_medida>
+          <precio>0.80</precio>
+          <adquirido>true</adquirido>
+        </producto>
+      </productos>
+    </supermercado>
+    <supermercado>
+      <nombre>Supermercado B</nombre>
+      <direccion>Avenida Secundaria 456</direccion>
+      <geolocalizacion>
+        <latitud>40.54321</latitud>
+        <longitud>-3.09876</longitud>
+      </geolocalizacion>
+      <productos>
+        <producto>
+          <nombre>Huevos</nombre>
+          <oferta>true</oferta>
+          <periodo_vigencia>
+            <inicio>2023-06-01</inicio>
+            <fin>2023-06-30</fin>
+          </periodo_vigencia>
+          <unidad_medida>docenas</unidad_medida>
+          <precio>2.50</precio>
+          <adquirido>false</adquirido>
+        </producto>
+        <producto>
+          <nombre>Yogur</nombre>
+          <oferta>true</oferta>
+          <periodo_vigencia>
+            <inicio>2023-06-01</inicio>
+            <fin>2023-06-30</fin>
+          </periodo_vigencia>
+          <unidad_medida>unidades</unidad_medida>
+          <precio>0.75</precio>
+          <adquirido>true</adquirido>
+        </producto>
+      </productos>
+    </supermercado>
+  </supermercados>
+</lista_compra>
